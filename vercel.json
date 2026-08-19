@@ -8,7 +8,7 @@
     },
     {
       "src": "demoback/src/server.js",
-      "use": "nodejs20.x"
+      "use": "@vercel/node"
     }
   ],
   "routes": [

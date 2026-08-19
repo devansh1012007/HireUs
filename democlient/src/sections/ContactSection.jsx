@@ -17,12 +17,12 @@ function ContactSection() {
             We're just unusually serious about what we build next.
           </p>
           <div className="contact__ctas">
-            <a href={`mailto:${contact.email}`} className="btn btn--solid">
+            {/* <a href={`mailto:${contact.email}`} className="btn btn--solid">
               Let's build something
               <ArrowRight size={16} className="btn-arrow" />
-            </a>
-            <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn--outline">
-              LinkedIn
+            </a> */}
+            <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn--solid">
+              Let's Build Something
             </a>
           </div>
         </Reveal>

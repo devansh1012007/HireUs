@@ -23,12 +23,14 @@ app.use('/api/team', teamRoutes);
 app.use(notFound);
 app.use(errorHandler);
 
-app.listen(config.port, () => {
-  console.log('=============================================');
-  console.log('  Engineered to Build API');
-  console.log(`  Running on http://localhost:${config.port}`);
-  console.log(`  Health: http://localhost:${config.port}/api/health`);
-  console.log('=============================================');
-});
+if (process.env.VERCEL !== '1') {
+  app.listen(config.port, () => {
+    console.log('=============================================');
+    console.log('  Engineered to Build API');
+    console.log(`  Running on http://localhost:${config.port}`);
+    console.log(`  Health: http://localhost:${config.port}/api/health`);
+    console.log('=============================================');
+  });
+}
 
 export default app;

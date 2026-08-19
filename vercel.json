@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "democlient/package.json",
+      "use": "vercel-static-build",
+      "config": { "distDir": "dist" }
+    },
+    {
+      "src": "demoback/src/server.js",
+      "use": "nodejs20.x"
+    }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/demoback/src/server.js" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}

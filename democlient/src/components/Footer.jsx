@@ -11,15 +11,15 @@ function Footer() {
           Engineered<span> to</span> Build
         </Link>
         <p className="footer__copy">
-          &copy; {year} Tathagato Chatterjee · Archit Sandeep Gore · Devansh Gaur
+          &copy; {year} Tathagato Chatterjee
         </p>
-        <div className="footer__links">
+        {/* <div className="footer__links">
           {site.nav.map((item) => (
             <Link key={item.to} to={item.to}>
               {item.label}
             </Link>
           ))}
-        </div>
+        </div> */}
       </div>
     </footer>
   );

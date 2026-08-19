@@ -7,16 +7,16 @@ export const currentProjects = [
   {
     index: '01',
     title: 'Indicator-Based Algo Trading (XAUUSD)',
-    status: 'In progress',
+    status: 'In Progress',
     description: 'Walk-forward validation with Bayesian optimization on 1-minute gold OHLCV data. GPU-accelerated indicator math via cudf/cupy. Two strategies (VM confluence-based and TV-inspired) under active research.',
-    notes: 'Edit in src/data/projects.js',
+    // notes: 'Edit in src/data/projects.js',
   },
   {
     index: '02',
-    title: 'Robotic Arm 3D Simulation',
-    status: 'In progress',
-    description: 'AI agent pipeline controlling a UR5 arm in PyBullet. SAM 2.1 vision, LLM reasoning, inverse kinematics. Drop-in replacement for ESP32-CAM hardware.',
-    notes: 'Edit in src/data/projects.js',
+    title: 'Spotit - A place to put all your civic issues',
+    status: 'In Progress',
+    description: 'A platform Where both Users post their civic issues in a community with a geotagged photo, which is upvoted by other people facing same issues, based upvote and severity detection problems are highlighted in the admin dashboard, admin verifies, and work starts',
+    // notes: 'Edit in src/data/projects.js',
   },
   {
     index: '03',
@@ -36,10 +36,6 @@ export const futurePlans = [
   'Upgrade kairix daemon with custom inference engine, better TUI and better harness engineering tools',
   'Recommendation algorithm for a passive entertainment startup',
   'Stronger full-stack systems built end to end',
-  'AI-powered applications that solve real problems',
-  'Developer tooling worth reaching for',
-  'Scalable backend architecture that holds up at scale',
-  'Better interfaces — precise, calm, and human',
   'Open-source experimentation and research-oriented work',
 ];
 

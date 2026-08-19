@@ -11,26 +11,28 @@ export const team = [
     role: 'Frontend Engineer',
     tagline: 'Interfaces that feel as good as they look.',
     intro:
-      'Tathagato focuses on creating interfaces that are visually polished without sacrificing usability. He cares about the small details — spacing, hierarchy, motion — and how they shape the way people actually use a product.',
+      'I focus on creating interfaces that are visually polished without sacrificing usability. I cares about the small details spacing, hierarchy, motion and how they shape the way people actually use a product.',
     zitoContribution:
       'Worked on the frontend of the ZITO Logistics website, focusing on making the platform easier to navigate and more intuitive for users. Owned the visual experience of the product.',
     strengths: [
       'React',
-      'JavaScript / TypeScript',
+      'JavaScript',
       'UI engineering',
       'Responsive design',
       'UX thinking',
-      'Frontend architecture',
+      'Python',
+      'C++',
+      'C',
     ],
     currentProjects: [
-      'A product-focused interface project — details coming soon.',
+      'Spotit-A community for citizens to post civic uses',
       'Contributing to the ZITO Logistics frontend.',
     ],
-    interests: ['Advanced React', 'Design systems', 'AI-powered interfaces', 'Full-stack development'],
+    interests: ['React', 'Design systems', 'AI-powered interfaces', 'Full-stack development'],
     futureDirection:
-      'Building more complex products where excellent UX and strong engineering meet.',
-    githubUrl: 'https://github.com/tathagato', // TODO: replace
-    linkedinUrl: 'https://www.linkedin.com/in/tathagato', // TODO: replace
+      'Learning to build Full Stack Apllications and learning about AI.',
+    githubUrl: 'https://github.com/tatha07', // TODO: replace
+    linkedinUrl: 'https://www.linkedin.com/in/tathagato-chatterjee/', // TODO: replace
   },
   {
     id: 2,

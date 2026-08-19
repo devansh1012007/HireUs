@@ -15,7 +15,7 @@ export const projects = [
     technologies: ['React', 'Node.js', 'Express', 'REST API'],
     year: '2026',
     githubUrl: '',
-    liveUrl: '',
+    liveUrl: 'https://zito-logistics-platform.vercel.app/',
     image: '',
   },
   {

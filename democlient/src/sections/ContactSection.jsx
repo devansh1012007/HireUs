@@ -21,6 +21,9 @@ function ContactSection() {
               Let's build something
               <ArrowRight size={16} className="btn-arrow" />
             </a>
+            <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn--outline">
+              LinkedIn
+            </a>
           </div>
         </Reveal>
 

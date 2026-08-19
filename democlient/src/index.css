@@ -240,6 +240,19 @@ ol {
   transform: translateY(-2px);
 }
 
+.btn--outline {
+  background: transparent;
+  color: var(--text-primary);
+}
+
+.btn--outline:hover {
+  background: var(--accent-cyan);
+  color: var(--btn-text);
+  border-color: var(--accent-cyan);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(184, 243, 255, 0.15);
+}
+
 /* Inline links with underline sweep */
 .link-underline {
   position: relative;

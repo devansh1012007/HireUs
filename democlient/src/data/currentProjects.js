@@ -20,7 +20,7 @@ export const currentProjects = [
   },
   {
     index: '03',
-    title: 'EchoFlow - Audio content processing pipeline',
+    title: 'EchoFlow - Audio content social media platform',
     status: 'In progress',
     description: 'Audio only social media platform with backend pipeline for ingesting and processing audio content. The system is designed to handle large volumes of audio data, perform various transformations, and prepare it for further analysis or distribution.',
     // notes: 'Edit in src/data/projects.js',

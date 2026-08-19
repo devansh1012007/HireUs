@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "democlient/package.json",
-      "use": "vercel-static-build",
+      "use": "@vercel/static-build",
       "config": { "distDir": "dist" }
     },
     {

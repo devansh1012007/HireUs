@@ -13,13 +13,13 @@ function Footer() {
         <p className="footer__copy">
           &copy; {year} Tathagato Chatterjee
         </p>
-        <div className="footer__links">
+        {/* <div className="footer__links">
           {site.nav.map((item) => (
             <Link key={item.to} to={item.to}>
               {item.label}
             </Link>
           ))}
-        </div>
+        </div> */}
       </div>
     </footer>
   );

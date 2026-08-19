@@ -15,7 +15,7 @@ export const currentProjects = [
     index: '02',
     title: 'Spotit - A place to put all your civic issues',
     status: 'In Progress',
-    description: 'A platfor Where both Users post their civic issues in a community with a geotagged photo, which is upvoted by other people facing same issues, based upvote and severity detection problems are highlighted in the admin dashboard, admin verifies, and work starts',
+    description: 'A platform Where both Users post their civic issues in a community with a geotagged photo, which is upvoted by other people facing same issues, based upvote and severity detection problems are highlighted in the admin dashboard, admin verifies, and work starts',
     // notes: 'Edit in src/data/projects.js',
   },
   {
@@ -36,10 +36,6 @@ export const futurePlans = [
   'Upgrade kairix daemon with custom inference engine, better TUI and better harness engineering tools',
   'Recommendation algorithm for a passive entertainment startup',
   'Stronger full-stack systems built end to end',
-  'AI-powered applications that solve real problems',
-  'Developer tooling worth reaching for',
-  'Scalable backend architecture that holds up at scale',
-  'Better interfaces — precise, calm, and human',
   'Open-source experimentation and research-oriented work',
 ];
 

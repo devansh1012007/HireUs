@@ -67,30 +67,32 @@ export const team = [
     id: 3,
     index: '03',
     name: 'Devansh Gaur',
-    role: 'Backend Engineer',
-    tagline: 'The logic behind the interface.',
+    role: 'Backend & Web Developer',
+    tagline: 'I build the parts that have to hold up.',
     intro:
-      'Devansh focuses on the systems behind the interface — APIs, databases, and the logic that keeps a product working when it matters.',
+      "I started with EchoFlow — my first real project, building out the backend pipeline for ingesting and processing audio content. That's where backend development became my thing: DevOps, databases, the infrastructure nobody notices until it breaks.",
     zitoContribution:
-      'While working with ZITO Logistics, investigated backend behaviour and identified a surge-pricing bug, demonstrating an ability to reason about system logic and real-world edge cases.',
+      'Tested the platform extensively, found bugs, and contributed to the backend of the ZITO Logistics platform.',
     strengths: [
-      'Node.js',
-      'Express',
-      'REST APIs',
-      'Databases',
-      'Backend architecture',
-      'Debugging',
+      'Backend development',
+      'Web development',
+      'API design',
+      'Django / FastAPI',
+      'Databases (PostgreSQL, Redis)',
+      'System design',
+      'Async task pipelines (Celery)',
     ],
     currentProjects: [
-      'A full-stack platform in the works — details coming soon.',
-      'Backend support for the ZITO Logistics platform.',
+      'EchoFlow — my starting project. Audio only social media platform. Backend pipeline for scraping, transcoding, and serving short-form audio content, with async processing via Celery.',
+      'Personal AI Automations OS — event-sourced agent runtime with crash recovery, built from the backend up.',
+      'AI Corporate Therapist — Django REST backend with a decoupled FastAPI service for RAG-based chat.',
     ],
-    interests: ['Distributed systems', 'Backend scalability', 'APIs', 'Cloud infrastructure', 'System design'],
+    interests: ['Backend systems', 'Web development', 'Docker & DevOps', 'Distributed systems', 'AI-agnostic tooling'],
     futureDirection:
-      'Building reliable backend systems capable of supporting products at scale.',
-    githubUrl: 'https://github.com/devansh', // TODO: replace
-    linkedinUrl: 'https://www.linkedin.com/in/devansh', // TODO: replace
-  },
+      'Building backend systems solid enough that the AI and frontend layered on top of them just work.',
+    githubUrl: 'https://github.com/devansh1012007',
+    linkedinUrl: 'https://www.linkedin.com/in/devansh-gaur-248127259/'
+},
 ];
 
 export default team;

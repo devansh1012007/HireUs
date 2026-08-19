@@ -20,10 +20,10 @@ export const currentProjects = [
   },
   {
     index: '03',
-    title: 'Kairix Daemon',
+    title: 'EchoFlow - Audio content processing pipeline',
     status: 'In progress',
-    description: 'Local AI agent running quantized Granite 3.2 2B GGUF. Web browsing, file I/O, shell execution via tool calling. Zero frameworks — everything hand-written.',
-    notes: 'Edit in src/data/projects.js',
+    description: 'Audio only social media platform with backend pipeline for ingesting and processing audio content. The system is designed to handle large volumes of audio data, perform various transformations, and prepare it for further analysis or distribution.',
+    // notes: 'Edit in src/data/projects.js',
   },
 ];
 

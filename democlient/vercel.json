@@ -19,7 +19,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "democlient/index.html"
+      "destination": "/index.html"
     }
   ]
 }

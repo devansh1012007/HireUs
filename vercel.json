@@ -14,7 +14,7 @@
   "routes": [
     { "src": "/api/(.*)", "dest": "/demoback/src/server.js" },
     { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/(.*)", "dest": "democlient/index.html" }
   ],
   "rewrites": [
     {
